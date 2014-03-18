@@ -22,7 +22,6 @@ for line in sys.stdin:
     if oldKey == None:
 		oldKey = thisKey
 		hours.clear()
- 		hours[thisHour] = 1
 
     # whenever the key is changing
     if oldKey != thisKey: 
